@@ -48,7 +48,6 @@ select::selection {
 
 body {
     background-color: var(--whitish);
-    /* A64253 861657 */
     font-family: 'Lato', sans-serif;
     margin: 0;
     overflow-x: hidden;
