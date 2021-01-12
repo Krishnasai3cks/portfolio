@@ -11,11 +11,27 @@
 }
 
 #skills-list {
-    width: 500px;
-    height: 200px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: left;
     justify-content: space-between;
+}
+
+.bar {
+    width: 500px;
+    height: 10px;
+    background-color: rgb(247, 113, 113);
+    animation: bar infinite 1s ease;
+}
+
+td {
+    width: 200px;
+}
+
+@keyframes bar {
+    0% {
+        width: 0;
+    }
 }
 
 .projects-section {
