@@ -28,7 +28,7 @@ skills.forEach((data) => {
         </td>
         <td >
         <div class="bar" style="width:${data[1]}%"></div>
-        ${data[1]}%
+        <abbr>${data[1]}%</abbr>
         </td>
 
         <tr>

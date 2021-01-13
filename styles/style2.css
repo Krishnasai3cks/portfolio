@@ -21,7 +21,7 @@
     width: 500px;
     height: 10px;
     background-color: rgb(247, 113, 113);
-    animation: bar infinite 1s ease;
+    animation: bar infinite 3s ease;
 }
 
 td {
@@ -116,12 +116,11 @@ footer {
     width: 90%;
     border: 0px;
     border-radius: 5px;
-    background: var(--lightblue);
+    background-color: var(--lightblue);
     color: white;
     font-size: larger;
     font-weight: bold;
     cursor: pointer;
-    box-shadow: 1px 0.1px 10px lightblue;
 }
 
 #submit:hover {

@@ -11,6 +11,7 @@ const all_projects = [
     "Responsive Web Design",
 ];
 let project_types = {
+    All: all_projects,
     Html_CSS_JS: ["Responsive Web Design"],
     React_JS: ["Front End Libraries"],
     Data_Analysis: ["Data Visualization", "Data Analysis with Python"],
@@ -43,13 +44,6 @@ for (let i = 0; i < list.length; i++) {
     </div>`;
 }
 projects_grid.innerHTML = htmlResult;
-
-all_projects.forEach(
-    (project) => (document.getElementById(project).style.display = "none")
-);
-project_types["Html_CSS_JS"].forEach(
-    (project) => (document.getElementById(project).style.display = "inline-block")
-);
 
 function changeProjects(target) {
     let { value } = target;
