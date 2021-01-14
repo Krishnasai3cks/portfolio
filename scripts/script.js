@@ -1,27 +1,29 @@
 let projects_grid = document.getElementById("projects-grid");
+
 const all_projects = [
-    "Front End Libraries",
+    "Front End",
+    "Back End",
     "Data Visualization",
-    "APIs and Microservices",
-    "Quality Assurance",
+    "Information Security and Quality Assurance",
+    "Responsive Web Design",
     "Scientific Computing with Python",
     "Data Analysis with Python",
-    "Information Security",
     "Machine Learning with Python",
-    "Responsive Web Design",
+    "Python Django",
 ];
 let project_types = {
     All: all_projects,
-    Html_CSS_JS: ["Responsive Web Design"],
-    React_JS: ["Front End Libraries"],
-    Data_Analysis: ["Data Visualization", "Data Analysis with Python"],
+    Front_End: ["Front End", "Responsive Web Design", "Data Visualization"],
+    Back_End: [
+        "Back End",
+        "Python Django",
+        "Information Security and Quality Assurance",
+    ],
     Python_DA_ML: [
         "Data Analysis with Python",
         "Machine Learning with Python",
         "Scientific Computing with Python",
-        "Information Security",
     ],
-    Node_JS: ["Quality Assurance", "APIs and Microservices"],
 };
 // The List is coming from ./projects.js file
 let htmlResult = "";

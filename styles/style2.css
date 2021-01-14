@@ -1,3 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+:root {
+    --lightblue: rgb(116, 116, 196);
+    --lightpinkish: rgb(240, 174, 240, 1);
+    --darkerpinkish: rgb(243, 134, 243);
+    --whitish: rgb(226, 232, 240);
+    --lightred: rgb(238, 215, 215);
+}
+
+select {
+    padding: 5px 35px 5px 5px;
+    font-size: 16px;
+    background-color: var(--whitish);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+select:hover {
+    box-shadow: 0.1px 0.1px 5px var(--lightpinkish);
+}
+
+select::selection {
+    border: 0px;
+}
+
+body {
+    background-color: var(--whitish);
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: var(--lightblue);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+nav a {
+    color: #fff;
+    position: relative;
+    margin-left: 30px;
+}
+
+nav a::after {
+    content: '';
+    border-bottom: 3px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: translateY(10px);
+    transition: transform 0.3s ease;
+    opacity: 0;
+}
+
+nav a:hover::after {
+    border-bottom: 3px solid #fff;
+    transform: translateY(0);
+    opacity: 1;
+}
+
+header {
+    height: 80vh;
+    background-color: var(--lightpinkish);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-position: center center;
+    position: relative;
+}
+
+.intro {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.photo {
+    height: 100%;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.7;
+}
+
+header * {
+    position: relative;
+    z-index: 1;
+}
+
+header h1 {
+    font-size: 60px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+header p {
+    font-size: 30px;
+    margin: 0;
+}
+
+.skill-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-python {
+    background: -webkit-linear-gradient(bottom right, yellow, yellow, blue, blue);
+    background-clip: inherit;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-html5 {
+    color: red;
+}
+
+.fa-css3 {
+    color: blue;
+}
+
+.fa-js {
+    color: goldenrod;
+}
+
+.fa-react {
+    color: skyblue
+}
+
+.fa-node-js {
+    color: green;
+}
+
+.fa-php {
+    color: slategray;
+}
+
+.mongodb {
+    color: green;
+}
+
+.mysql {
+    color: orange;
+}
+
 #skills {
     margin-top: 20px;
     display: flex;
@@ -43,14 +234,15 @@ td {
 }
 
 .projects-grid {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     min-height: 30vh;
     max-height: 50vh;
     width: 90%;
     overflow: scroll;
     overflow-x: hidden;
+}
+
+.project-type {
+    width: 100%;
 }
 
 .project {
@@ -134,4 +326,13 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
     border-radius: 5px;
+}
+
+@media only screen and (max-width:620px) {
+    .photo {
+        display: none;
+    }
+    .intro {
+        width: 100%;
+    }
 }

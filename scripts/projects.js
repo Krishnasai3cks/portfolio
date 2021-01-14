@@ -1,49 +1,50 @@
 let list = [{
-        technology: "Responsive Web Design",
+        technology: "Front End",
         projects: [{
-                prolink: "https://codepen.io/tznqeyiq/full/wvMxPOb",
-                paragraph: "Tribute page",
-                website: "freecodecamp.org",
-            },
-            {
-                prolink: "https://codepen.io/tznqeyiq/full/wvMxpjM",
-                paragraph: "Form",
-                website: "freecodecamp.org",
-            },
-
-            {
-                prolink: "https://codepen.io/tznqeyiq/full/XWXBEVd",
-                paragraph: "Product Landing",
-                website: "freecodecamp.org",
-            },
-            {
-                prolink: "https://codepen.io/tznqeyiq/full/rNxZQeE",
-                paragraph: "Technical Documentation",
-                website: "freecodecamp.org",
-            },
-            {
-                prolink: "https://codepen.io/tznqeyiq/full/LYGJqEM",
+                prolink: "https://krishnasai3cks.github.io/portfolio/",
+                //prolink: "https://codepen.io/tznqeyiq/full/LYGJqEM",
                 paragraph: "Personal portfolio",
                 website: "freecodecamp.org",
             },
-
             {
-                prolink: "https://krishnamoviewebsite.000webhostapp.com/",
-                paragraph: "365 Enterntainment",
-                website: "internships.suvenconsultants.com",
-            },
-        ],
-    },
-    {
-        technology: "Front End Libraries",
-        projects: [{
                 prolink: "https://codepen.io/tznqeyiq/full/bGEJQvN",
                 paragraph: "Random Quote Machine",
                 website: "freecodecamp.org",
             },
             {
-                prolink: "https://codepen.io/tznqeyiq/pen/oNbRWOW?editors=1111",
-                paragraph: "Markdown Previewer",
+                prolink: "https://codepen.io/tznqeyiq/pen/qBbzpLg?editors=0010",
+                paragraph: "Pomodoro Clock",
+                website: "freecodecamp.org",
+            },
+
+            {
+                prolink: "https://codepen.io/tznqeyiq/pen/OJMYYOO?editors=0010",
+                paragraph: "Calculator",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://codepen.io/tznqeyiq/full/XWKbpKv",
+                paragraph: "Show Local Weather",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://codepen.io/tznqeyiq/full/NWrqEdM",
+                paragraph: "Twitch JSON API",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://codepen.io/tznqeyiq/full/wvMxPOb",
+                paragraph: "Tribute page",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://codepen.io/tznqeyiq/full/yLJNoMe",
+                paragraph: "Wikipedia Viewer",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://codepen.io/tznqeyiq/full/vYKNwKb",
+                paragraph: "Tic Tac Toe Game",
                 website: "freecodecamp.org",
             },
             {
@@ -52,20 +53,94 @@ let list = [{
                 website: "freecodecamp.org",
             },
             {
-                prolink: "https://codepen.io/tznqeyiq/pen/OJMYYOO?editors=0010",
-                paragraph: "Calculator",
-                website: "freecodecamp.org",
-            },
-            {
-                prolink: "https://codepen.io/tznqeyiq/pen/qBbzpLg?editors=0010",
-                paragraph: "Pomodoro Clock",
+                prolink: "https://codepen.io/tznqeyiq/full/KKMzXoz",
+                paragraph: "Simon Game",
                 website: "freecodecamp.org",
             },
         ],
     },
     {
+        technology: "Back End",
+        projects: [{
+                prolink: "https://timestamp-microservice.krishnasai4.repl.co/",
+                paragraph: "Timestamp Microservice",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://header-parser.krishnasai4.repl.co/",
+                paragraph: "Request Header parser",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://spiritual-sunrise-okra.glitch.me/",
+                paragraph: "Url Shortener",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://imagesearchabstractionlayer.krishnasai4.repl.co",
+                paragraph: "Image Search Abstraction Layer",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://filemetadata.krishnasai4.repl.co",
+                paragraph: "File Metadata Microservice",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://voting-app-by-krishna.glitch.me",
+                paragraph: "Build a Voting App",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://pinterest-clone.krishnasai4.repl.co",
+                paragraph: "Build a Pinterest Clone",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://indecisive-lofty-network.glitch.me/",
+                paragraph: "Sudoku Solver",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://boilerplate-project-secure-real-time-multiplayer-game.krishnasai4.repl.co/",
+                paragraph: "Real Time Multiplayer",
+                website: "freecodecamp.org",
+            },
+            // {
+            //     prolink: "",
+            //     paragraph: "",
+            //     website: "freecodecamp.org",
+            // },
+        ],
+    },
+    {
         technology: "Data Visualization",
         projects: [{
+                prolink: "https://codepen.io/tznqeyiq/pen/oNbRWOW?editors=1111",
+                paragraph: "Markdown Previewer",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://codepen.io/tznqeyiq/full/bGeewpY",
+                paragraph: "FCC Forum",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://codepen.io/tznqeyiq/full/yLJJqxP",
+                paragraph: "Recipe Box",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://codepen.io/tznqeyiq/pen/eYzgqXr?editors=0010",
+                paragraph: "Dungeon Crawler Game",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://codepen.io/tznqeyiq/full/QWKNBGV",
+                paragraph: "Forced Directed Graph",
+                website: "freecodecamp.org",
+            },
+            {
                 prolink: "https://codepen.io/tznqeyiq/pen/VweoxzG?editors=0011",
                 paragraph: "Bar Chart",
                 website: "freecodecamp.org",
@@ -90,26 +165,15 @@ let list = [{
                 paragraph: "Treemap",
                 website: "freecodecamp.org",
             },
+            {
+                prolink: "https://krishnasai3cks.github.io/animated-sorting/",
+                paragraph: "Animated Sorting",
+            },
         ],
     },
     {
-        technology: "APIs and Microservices",
+        technology: "Information Security and Quality Assurance",
         projects: [{
-                prolink: "https://timestamp-microservice.krishnasai4.repl.co/",
-                paragraph: "Timestamp Microservice",
-                website: "freecodecamp.org",
-            },
-            {
-                prolink: "https://header-parser.krishnasai4.repl.co/",
-                paragraph: "Request Header parser",
-                website: "freecodecamp.org",
-            },
-            {
-                prolink: "https://spiritual-sunrise-okra.glitch.me/",
-                paragraph: "Url Shortener",
-                website: "freecodecamp.org",
-            },
-            {
                 prolink: "https://exercisetracker.krishnasai4.repl.co/",
                 paragraph: "Exercise Tracker",
                 website: "freecodecamp.org",
@@ -119,11 +183,7 @@ let list = [{
                 paragraph: "File Metadata",
                 website: "freecodecamp.org",
             },
-        ],
-    },
-    {
-        technology: "Quality Assurance",
-        projects: [{
+            {
                 prolink: "https://rogue-plume-bug.glitch.me/",
                 paragraph: "Metric/Imperial",
                 website: "freecodecamp.org",
@@ -139,8 +199,13 @@ let list = [{
                 website: "freecodecamp.org",
             },
             {
-                prolink: "https://indecisive-lofty-network.glitch.me/",
-                paragraph: "Sudoku Solver",
+                prolink: "https://agreeable-busy-volleyball.glitch.me/",
+                paragraph: "Stock Price Checker",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://fluff-wooded-calculator.glitch.me/",
+                paragraph: "Anonymous Message Board",
                 website: "freecodecamp.org",
             },
             {
@@ -150,6 +215,43 @@ let list = [{
             },
         ],
     },
+    {
+        technology: "Responsive Web Design",
+        projects: [{
+                prolink: "https://codepen.io/tznqeyiq/full/wvMxpjM",
+                paragraph: "Form",
+                website: "freecodecamp.org",
+            },
+
+            {
+                prolink: "https://codepen.io/tznqeyiq/full/XWXBEVd",
+                paragraph: "Product Landing",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://codepen.io/tznqeyiq/full/rNxZQeE",
+                paragraph: "Technical Documentation",
+                website: "freecodecamp.org",
+            },
+
+            {
+                prolink: "https://krishnamoviewebsite.000webhostapp.com/",
+                paragraph: "365 Enterntainment",
+                website: "internships.suvenconsultants.com",
+            },
+            {
+                prolink: "https://codepen.io/tznqeyiq/full/rNLJEax",
+                paragraph: "Light Bright App",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://codepen.io/tznqeyiq/full/GRqxyNV",
+                paragraph: "Ping Pong Game",
+                website: "freecodecamp.org",
+            },
+        ],
+    },
+
     {
         technology: "Scientific Computing with Python",
         projects: [{
@@ -175,6 +277,16 @@ let list = [{
             {
                 prolink: "https://fcc-probability-calculator.krishnasai4.repl.run/",
                 paragraph: "Probability Calculator",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://fcc-port-scanner.krishnasai4.repl.run/",
+                paragraph: "Port Scanner",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://fcc-brute-force-password-cracker.krishnasai4.repl.run/",
+                paragraph: "SHA-1 password",
                 website: "freecodecamp.org",
             },
         ],
@@ -208,35 +320,7 @@ let list = [{
             },
         ],
     },
-    {
-        technology: "Information Security",
-        projects: [{
-                prolink: "https://agreeable-busy-volleyball.glitch.me/",
-                paragraph: "Stock Price Checker",
-                website: "freecodecamp.org",
-            },
-            {
-                prolink: "https://fluff-wooded-calculator.glitch.me/",
-                paragraph: "Anonymous Message Board",
-                website: "freecodecamp.org",
-            },
-            {
-                prolink: "https://fcc-port-scanner.krishnasai4.repl.run/",
-                paragraph: "Port Scanner",
-                website: "freecodecamp.org",
-            },
-            {
-                prolink: "https://fcc-brute-force-password-cracker.krishnasai4.repl.run/",
-                paragraph: "SHA-1 password",
-                website: "freecodecamp.org",
-            },
-            {
-                prolink: "https://boilerplate-project-secure-real-time-multiplayer-game.krishnasai4.repl.co/",
-                paragraph: "Real Time Multiplayer",
-                website: "freecodecamp.org",
-            },
-        ],
-    },
+
     {
         technology: "Machine Learning with Python",
         projects: [{
@@ -267,7 +351,7 @@ let list = [{
         ],
     },
     {
-        technology: "Python/Django",
+        technology: "Python Django",
         projects: [{
                 prolink: "https://blog-project-krishna.herokuapp.com/",
                 paragraph: "Blog Application",
