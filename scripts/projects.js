@@ -251,7 +251,18 @@ let list = [{
             },
         ],
     },
-
+    {
+        technology: "Python Games",
+        projects: [{
+                prolink: "https://github.com/Krishnasai3cks/Projects/blob/master/SnakeGame/SnakeGame.py",
+                paragraph: "Snake Game",
+            },
+            {
+                prolink: "https://github.com/Krishnasai3cks/Projects/blob/master/PythonTypingGame/typinggame.py",
+                paragraph: "Typing Game",
+            },
+        ],
+    },
     {
         technology: "Scientific Computing with Python",
         projects: [{

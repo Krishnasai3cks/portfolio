@@ -10,6 +10,7 @@ const all_projects = [
     "Data Analysis with Python",
     "Machine Learning with Python",
     "Python Django",
+    "Python Games",
 ];
 let project_types = {
     All: all_projects,
@@ -20,6 +21,7 @@ let project_types = {
         "Information Security and Quality Assurance",
     ],
     Python_DA_ML: [
+        "Python Games",
         "Data Analysis with Python",
         "Machine Learning with Python",
         "Scientific Computing with Python",

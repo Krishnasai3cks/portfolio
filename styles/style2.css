@@ -277,7 +277,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-direction: column;
 }
 
 .contact-links div a {
@@ -344,5 +343,8 @@ footer {
     }
     .intro {
         width: 100%;
+    }
+    .contact-links {
+        flex-direction: column;
     }
 }
