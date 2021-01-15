@@ -57,6 +57,11 @@ let list = [{
                 paragraph: "Simon Game",
                 website: "freecodecamp.org",
             },
+            {
+                prolink: "https://codepen.io/tznqeyiq/full/OJRrWQx",
+                paragraph: "Conway's Game of Life",
+                website: "freecodecamp.org",
+            },
         ],
     },
     {
