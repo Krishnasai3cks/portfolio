@@ -57,11 +57,6 @@ let list = [{
                 paragraph: "Simon Game",
                 website: "freecodecamp.org",
             },
-            {
-                prolink: "https://codepen.io/tznqeyiq/full/OJRrWQx",
-                paragraph: "Conway's Game of Life",
-                website: "freecodecamp.org",
-            },
         ],
     },
     {
@@ -121,28 +116,23 @@ let list = [{
             //     paragraph: "",
             //     website: "freecodecamp.org",
             // },
+            {
+                prolink: "https://book-trading-club.krishnasai4.repl.co/",
+                paragraph: "Book Trading Club",
+                website: "freecodecamp.org",
+            },
         ],
     },
     {
         technology: "Data Visualization",
         projects: [{
-                prolink: "https://codepen.io/tznqeyiq/pen/oNbRWOW?editors=1111",
-                paragraph: "Markdown Previewer",
+                prolink: "https://codepen.io/tznqeyiq/full/OJRrWQx",
+                paragraph: "Conway's Game of Life",
                 website: "freecodecamp.org",
             },
             {
-                prolink: "https://codepen.io/tznqeyiq/full/bGeewpY",
-                paragraph: "FCC Forum",
-                website: "freecodecamp.org",
-            },
-            {
-                prolink: "https://codepen.io/tznqeyiq/full/yLJJqxP",
-                paragraph: "Recipe Box",
-                website: "freecodecamp.org",
-            },
-            {
-                prolink: "https://codepen.io/tznqeyiq/pen/eYzgqXr?editors=0010",
-                paragraph: "Dungeon Crawler Game",
+                prolink: "https://codepen.io/tznqeyiq/full/YzGdEZw",
+                paragraph: "Map Data Across the Globe",
                 website: "freecodecamp.org",
             },
             {
@@ -173,6 +163,26 @@ let list = [{
             {
                 prolink: "https://codepen.io/tznqeyiq/full/dyMyVxx",
                 paragraph: "Treemap",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://codepen.io/tznqeyiq/pen/oNbRWOW?editors=1111",
+                paragraph: "Markdown Previewer",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://codepen.io/tznqeyiq/full/bGeewpY",
+                paragraph: "FCC Forum",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://codepen.io/tznqeyiq/full/yLJJqxP",
+                paragraph: "Recipe Box",
+                website: "freecodecamp.org",
+            },
+            {
+                prolink: "https://codepen.io/tznqeyiq/pen/eYzgqXr?editors=0010",
+                paragraph: "Dungeon Crawler Game",
                 website: "freecodecamp.org",
             },
             {
