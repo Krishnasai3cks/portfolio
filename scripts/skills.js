@@ -15,7 +15,6 @@ let innerHTML = "<table style='width:100%;'>";
 skills.forEach((data) => {
     let classStyle = data[2] ? "fa fa-database " + data[2] : "fab fa-" + data[0];
     let name = data[2] ? data[2] : data[0];
-    console.log(classStyle);
     innerHTML += `
         <tr>
         <td>

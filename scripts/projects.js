@@ -16,7 +16,6 @@ let list = [{
                 paragraph: "Pomodoro Clock",
                 website: "freecodecamp.org",
             },
-
             {
                 prolink: "https://codepen.io/tznqeyiq/pen/OJMYYOO?editors=0010",
                 paragraph: "Calculator",
