@@ -38,6 +38,7 @@ html {
 :root {
     --lightblue: rgb(116, 116, 196);
     --lightpinkish: rgb(240, 174, 240, 1);
+    --shadedlightpinkish: rgba(240, 174, 240, 0.7);
     --darkerpinkish: rgb(243, 134, 243);
     --whitish: rgb(226, 232, 240);
     --lightred: rgb(238, 215, 215);
@@ -120,16 +121,13 @@ header {
 }
 
 .intro {
-    width: 60%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     color: rgba(0, 0, 0, 0.6);
-}
-
-.photo {
-    height: 100%;
+    overflow: hidden;
 }
 
 header::after {
@@ -204,6 +202,7 @@ header p {
 }
 
 #skills {
+    background-color: var(--shadedlightpinkish);
     position: relative;
     overflow: hidden;
     display: flex;
@@ -225,7 +224,7 @@ header p {
     background-position: 50% 0;
     background-size: cover;
     background-image: url("../images/Untitled.png");
-    opacity: 0.3;
+    opacity: 0.2;
 }
 
 .skills-icon {
@@ -257,7 +256,7 @@ td {
 }
 
 .projects-section {
-    background-color: var(--whitish);
+    background-color: var(--lightpinkish);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -265,6 +264,7 @@ td {
 }
 
 .projects-grid {
+    background-color: rgba(252, 245, 245, 0.6);
     min-height: 30vh;
     max-height: 50vh;
     width: 90%;
@@ -285,6 +285,7 @@ td {
 }
 
 .contact-section {
+    background-color: var(--lightpinkish);
     width: 100vw;
     height: 30vh;
     display: flex;
