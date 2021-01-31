@@ -1,12 +1,6 @@
 let list = [{
         technology: "Front End",
         projects: [{
-                prolink: "https://krishnasai3cks.github.io/portfolio/",
-                //prolink: "https://codepen.io/tznqeyiq/full/LYGJqEM",
-                paragraph: "Personal portfolio",
-                website: "freecodecamp.org",
-            },
-            {
                 prolink: "https://codepen.io/tznqeyiq/full/bGEJQvN",
                 paragraph: "Random Quote Machine",
                 website: "freecodecamp.org",
@@ -188,6 +182,10 @@ let list = [{
                 prolink: "https://krishnasai3cks.github.io/animated-sorting/",
                 paragraph: "Animated Sorting",
             },
+            {
+                prolink: "https://krishnasai3cks.github.io/path-finder/",
+                paragraph: "Path Finding in 3D Matrix",
+            },
         ],
     },
     {
@@ -237,6 +235,12 @@ let list = [{
     {
         technology: "Responsive Web Design",
         projects: [{
+                prolink: "https://krishnasai3cks.github.io/portfolio/",
+                //prolink: "https://codepen.io/tznqeyiq/full/LYGJqEM",
+                paragraph: "Personal portfolio",
+                website: "freecodecamp.org",
+            },
+            {
                 prolink: "https://codepen.io/tznqeyiq/full/wvMxpjM",
                 paragraph: "Form",
                 website: "freecodecamp.org",
